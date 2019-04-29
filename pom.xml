@@ -54,9 +54,11 @@
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>${jib-maven-plugin.version}</version>
                 <configuration>
+                    <!-- base image -->
                     <from>
                         <image>openjdk:alpine</image>
                     </from>
+                    <!-- image registry repository-->
                     <to>
                         <image>registry.cn-hangzhou.aliyuncs.com/zn/jib:1.0</image>
                     </to>
